@@ -1,0 +1,37 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	//Your question array stuff below
+
+	//Your answer array stuff below
+
+	//variables we will need
+	int pointTotal = 0;
+	bool gameEnd = false;
+	int questionCol;
+	int questionRow;
+	int questionsAnswered = 0;
+	string userAnswer; 
+
+	while (!gameEnd)
+	{
+		if (questionsAnswered - 1 == //amount of rows * //amount of columns)
+		{
+			gameEnd = true;
+		}
+		/*Print out what the topics the person can choose from. E.G. 
+		1. Cars 2. Dog Breeds 3. This city is in... 4. Mathemagica 5. Hollywood
+		Then print out the jeopardy square with the point values (could use even another 2 dimensional array for this).
+		Take in user input for the row and column that they want to answer (we are using questionCol and questionRow for the variables for this)
+		print out the string question of the array. E.G. cout << myArray[row][col] << endl;
+		
+		use conditional statements to compare the user's answer to the answer array. 
+		if it is the same, add points. Otherwise, take away from the point total.
+		Update the questions answered variable by one.
+		*/
+	}
+}
